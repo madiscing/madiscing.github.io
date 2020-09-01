@@ -24,12 +24,13 @@ a,
   color: #9fffcb !important;
 }
 nav .nav-link {
+  Margin-left: 10px;
   color: #9fffcb !important;
 }
 
 nav .nav-link:hover {
+  Margin-left: 10px;
   color: white !important;
-  transform: scale(1.1);
 }
 
 /* CAROUSEL */
