@@ -35,8 +35,7 @@ nav .nav-link:hover {
 
 /* CAROUSEL */
 .carousel-item {
-  width: 100vmax;
-  height: 100vh;
+ height: 100%;
 }
 
 .titleMessage {
