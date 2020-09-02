@@ -97,6 +97,11 @@ nav .nav-link:hover {
   padding-top: 30px;
 }
 
+#about h1 {
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
+  color: #424242;
+}
+
 /* SERVICES SECTION */
 #services h1 {
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
