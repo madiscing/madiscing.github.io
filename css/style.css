@@ -24,12 +24,12 @@ a,
   color: #9fffcb !important;
 }
 nav .nav-link {
-  Margin-left: 10px;
+  margin-left: 10px;
   color: #9fffcb !important;
 }
 
 nav .nav-link:hover {
-  Margin-left: 10px;
+  margin-left: 10px;
   color: white !important;
 }
 
@@ -46,7 +46,7 @@ nav .nav-link:hover {
   }
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
   #home .carousel-item {
     width: auto;
     height: 100vh;
