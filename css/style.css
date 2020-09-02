@@ -34,24 +34,22 @@ nav .nav-link:hover {
 }
 
 /* CAROUSEL */
-.carousel-item {
- width: auto;
- height: 100vh;
+#home .carousel-item {
+  width: auto;
+  height: 100vh;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   #home .carousel-item {
     width: 100%;
     height: 100vh;
-    /* max-height: 100vh; */
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (orientation: portrait) {
   #home .carousel-item {
-    width: 100%;
+    width: auto;
     height: 100vh;
-    /* max-height: 100vh; */
   }
 }
 
