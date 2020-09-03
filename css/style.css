@@ -9,7 +9,7 @@ body {
 .navbar {
   margin-top: 0;
   padding: 0;
-  background-color: #222;
+  background-color: #444 !important;
   position: sticky;
   z-index: 6;
 }
@@ -108,18 +108,22 @@ nav .nav-link:hover {
 
 #about h1 {
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
-  color: #424242;
+  color: #444;
 }
 
 /* SERVICES SECTION */
+#services {
+  background-color: #777;
+}
+
 #services h1 {
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
-  color: #424242;
+  color: #eee;
 }
 
 #services h3 {
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
-  color: #424242;
+  color: #eee;
   width: 100%;
   padding-top: 30px;
 }
@@ -148,7 +152,7 @@ nav .nav-link:hover {
   float: none;
   widows: 100%;
   position: relative;
-  background-color: #424242;
+  background-color: #444;
   color: #fff;
   text-align: center;
   justify-content: center;
@@ -157,12 +161,17 @@ nav .nav-link:hover {
 .list-item {
   width: 70%;
   margin: 0 20%;
+  color: #eee;
 }
 
 /* CONTACT SECTION */
+#contact {
+  height: 100vh;
+}
+
 .contactButton {
   color: #fff;
-  background-color: #000;
+  background-color: #444;
   padding: 0.5rem 0.8rem;
   display: inline-block;
   margin-top: 15px;
@@ -173,11 +182,12 @@ nav .nav-link:hover {
 .contactButton:hover {
   color: #fff;
   background-color: #c0392b;
-  border: 1px solid #000;
+  border: 1px solid #444;
   text-decoration: none;
 }
 
 #contact h1 {
+  padding-top: 12%;
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
   color: #424242;
 }
